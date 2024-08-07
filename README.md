@@ -1,0 +1,2 @@
+# Sobre este repositório
+Landing Page criada, a título de estudo, a partir das aulas do [Curso de JavaScript e TypeScript do básico ao avançado](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/?couponCode=KEEPLEARNING) do professor [Luiz Otávio Miranda](https://github.com/luizomf).
