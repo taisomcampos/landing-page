@@ -21,6 +21,7 @@
                     <li><a href="#exemplo">papel específico</a></li>
                     <li><a href="#gallery">galeria</a></li>
                     <li><a href="#tabela">tabela</a></li>
+                    <li><a href="#weather">clima</a></li>
                 </ul>
             </nav>
         </div>
@@ -62,6 +63,7 @@
         <div class="main-content exemplo-content">
             <h2 class="papel-especifico">Papel Específico</h2>
             <p class="paragrafo-description">Cada uma desempenha um papel específico na criação de páginas e aplicativos web:</p>
+            
             <div class="grid">
                 <article>
                     <h3>HTML</h3>
@@ -85,6 +87,7 @@
         <div class="main-content exemplo-content">
             <h2 class="papel-especifico">Galeria</h2>
             <p class="paragrafo-description">Aqui temos uma galeria simples, com alguns efeitos, utilizando apenas <strong>HTML</strong> e <strong>CSS</strong>.</p>
+            
             <div class="grid">
                 <div class="gallery-img">
                     <img src="https://picsum.photos/360/360?=1" alt="Imagem aleatória gerada a pelo Lorem Picsum.">
@@ -113,10 +116,11 @@
         </div>    
     </section>
 
-    <section id="wheather" class="exemplo main-bg section">
+    <section id="loren" class="exemplo main-bg section">
         <div class="main-content exemplo-content">
             <h2 class="papel-especifico">Papel Específico</h2>
             <p class="paragrafo-description">Cada uma desempenha um papel específico na criação de páginas e aplicativos web:</p>
+            
             <div class="grid">
                 <article>
                     <h3>HTML</h3>
@@ -179,6 +183,52 @@
             </div>
         </div>
     </section>
+
+    <section id="weather" class="weather main-bg section">
+        <div class="main-content weather-content">
+            <h2 class="papel-especifico">Consulte o Clima</h2>
+            <p class="paragrafo-description">Aqui temos uma pequeno exemplo do que se pode fazer quando juntamos HTML, CSS e JavaScript.</p>
+            
+            <div class="weather-section">
+                <div class="search-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Digite sua localização">
+                    <button class="fa-solid fa-magnifying-glass"></button>
+                </div>
+
+                <div class="not-found">
+                    <img src="/assets/img/404.png" alt="">
+                    <p>Oops! Localização inválida!🤔</p>
+                </div>
+
+                <div class="weather-box">
+                    <img src="" alt="">
+                    <p class="temperatura"></p>
+                    <p class="descricao"></p>
+                </div>
+
+                <div class="weather-details">
+                    <div class="humidade">
+                        <i class="fa-solid fa-water"></i>
+                        <di class="text"></di>
+                        <span></span>
+                        <p>Humidade</p>
+                    </div>
+                    <div class="vento">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span></span>
+                            <p>Velocidade do vento</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/weather.js"></script>
+
 </body>
 
 </html>
