@@ -189,7 +189,7 @@
             <h2 class="papel-especifico">Consulte o Clima</h2>
             <p class="paragrafo-description">Aqui temos uma pequeno exemplo do que se pode fazer quando juntamos HTML, CSS e JavaScript.</p>
             
-            <div class="weather-section">
+            <div class="weather-container">
                 <div class="search-box">
                     <i class="fa-solid fa-location-dot"></i>
                     <input type="text" placeholder="Digite sua localização">
@@ -203,18 +203,20 @@
 
                 <div class="weather-box">
                     <img src="" alt="">
-                    <p class="temperatura"></p>
-                    <p class="descricao"></p>
+                    <p class="temperature"></p>
+                    <p class="description"></p>
                 </div>
 
                 <div class="weather-details">
-                    <div class="humidade">
+                    <div class="humidity">
                         <i class="fa-solid fa-water"></i>
-                        <di class="text"></di>
-                        <span></span>
-                        <p>Humidade</p>
+                        <div class="text">
+                            <span></span>
+                            <p>Humidade</p>
+                        </div>
+                       
                     </div>
-                    <div class="vento">
+                    <div class="wind">
                         <i class="fa-solid fa-wind"></i>
                         <div class="text">
                             <span></span>
@@ -227,7 +229,7 @@
     </section>
 
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/weather.js"></script>
+    <script src="/assets/js/index.js"></script>
 
 </body>
 

@@ -278,9 +278,9 @@ table th {
     justify-content: center;
 }
 
-.weather-section {
+.weather-container {
     position: relative;
-    width: 80%;
+    width: 400px;
     height: 50px;
     background: var(--white-color);
     color: var(--primary-color);
@@ -345,12 +345,16 @@ table th {
     text-align: center;
 }
 
+.weather-box p {
+    text-align: center;
+}
+
 .weather-box img {
     width: 60%;
     margin-top: 30px;
 }
 
-.weather-box .temperatura {
+.weather-box .temperature {
     position: relative;
     color: var(--primary-color);
     font-size: 4rem;
@@ -359,13 +363,13 @@ table th {
     margin-left: -16px;
 }
 
-.weather-box .temperatura span {
+.weather-box .temperature span {
     position: absolute;
     margin-left: 4px;
     font-size: 1.5rem;
 }
 
-.weather-box .descricao {
+.weather-box .description {
     color: var(--primary-color);
     font-size: 22px;
     font-weight: 500;
@@ -379,20 +383,20 @@ table th {
     margin-top: 30px;
 }
 
-.weather-details .humidade,
-.weather-details .vento {
+.weather-details .humidity,
+.weather-details .wind {
     display: flex;
     align-items: center;
     width: 50%;
     height: 100px;
 }
 
-.weather-details .humidade {
+.weather-details .humidity {
     padding-left: 20px;
     justify-content: flex-start;
 }
 
-.weather-details .vento {
+.weather-details .wind {
     padding-right: 20px;
     justify-content: flex-end;
 }
@@ -401,7 +405,7 @@ table th {
     color: var(--primary-color);
     font-size: 26px;
     margin-right: 10px;
-    margin-top: -6px;
+    margin-top: 6px;
 }
 
 .weather-details span {
@@ -440,6 +444,11 @@ table th {
 .weather-details {
     scale: 0;
     opacity: 0;
+}
+
+.fadeIn {
+    animation: 0.5s fadeIn forwards;
+    animation-delay: 0.5s;
 }
 
 @keyframes fadeIn {
