@@ -272,10 +272,15 @@ table th {
 }
 
 .weather {
-    height: 100vh;
+    height: 100%;
+    min-width: 36rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+}
+
+.weather p {
+    padding-bottom: 0.8rem;
 }
 
 .weather-container {
@@ -299,7 +304,6 @@ table th {
     outline: none;
     box-shadow: none;
 }
-
 
 .search-box input {
     color: var(--primary-color);
@@ -456,4 +460,19 @@ table th {
         scale: 1;
         opacity: 1;
     }
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.footer a {
+    color: crimson;
+}
+
+.footer p {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
 }
