@@ -12,11 +12,13 @@
 </head>
 
 <body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1><a href="#home">home</a></h1>
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">home</a></h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false;">
                     <li><a href="#intro">intro</a></li>
                     <li><a href="#exemplo">papel específico</a></li>
                     <li><a href="#gallery">galeria</a></li>
@@ -33,7 +35,7 @@
     <section id="home" class="home main-bg section">
         <div class="main-content home-content">
             <div class="home-text-content">
-                <h2>O que é o Front-End?</h2>
+                <h2>O que é Front-End?</h2>
                 <p>O <strong>front-end</strong> é a parte do desenvolvimento web que lida com a interface do usuário e a experiência visual de um site ou aplicativo. Em outras palavras, é tudo o que você vê e interage diretamente quando visita uma página web.</p>
 
                 <p>O desenvolvedor front-end trabalha para transformar designs e conceitos em código funcional, criando uma experiência de usuário agradável e eficiente.</p>
@@ -233,6 +235,8 @@
     <footer id="footer" class="footer white-bg menu-spacing">
         <p>Feito por <a target="_blank" href="https://github.com/taisomcampos">Taisom Campos👋😎</a></p>
     </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
 
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
     <script src="/assets/js/index.js"></script>
