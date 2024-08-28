@@ -7,12 +7,10 @@ Mesmo já tendo uma landing page simples pronta como referência, foi um desafio
 
 Os textos foram extraídos e melhorados a partir dos meus resumos de estudo, acumulados ao longo de quase um ano aprendendo sobre Desenvolvimento Web.
 
-## Imagens do projeto
+Confira aqui o trabalho completo: <https://my-landing-page-project.netlify.app>
+
+## Algumas imagens do projeto
+
 ![Screenshot](/assets/img/screenshots/home.png)
+
 ![Screenshot](/assets/img/screenshots/intro.png)
-![Screenshot](/assets/img/screenshots/papel-especifico.png)
-![Screenshot](/assets/img/screenshots/galeria.png)
-![Screenshot](/assets/img/screenshots/sentido-figurado.png)
-![Screenshot](/assets/img/screenshots/tabela.png)
-![Screenshot](/assets/img/screenshots/clima-um.png)
-![Screenshot](/assets/img/screenshots/clima-dois.png)
