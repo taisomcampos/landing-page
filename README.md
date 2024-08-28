@@ -3,7 +3,7 @@ Landing Page criada, a título de estudo, a partir das aulas do [Curso de JavaSc
 
 A princípio, este pequeno projeto era apenas uma landing page em HTML e CSS. Então, busquei um segundo projeto em JavaScript que eu pudesse implementar, tornando-o um pouco mais completo. Optei por adicionar uma consulta de previsão do tempo.
 
-Mesmo já tendo uma landing page simples pronta como referência, foi um desafio integrar os dois projetos, pois precisei fazer as adaptações necessárias para que funcionassem bem juntos. Essas adaptações foram as que mais me deram trabalho. 😂
+Mesmo já tendo uma landing page simples pronta como referência, foi um desafio integrar os dois projetos, pois precisei fazer as adaptações necessárias para que funcionassem bem juntos. Essas adaptações foram as que mais me deram trabalho.
 
 Os textos foram extraídos e melhorados a partir dos meus resumos de estudo, acumulados ao longo de quase um ano aprendendo sobre Desenvolvimento Web.
 
