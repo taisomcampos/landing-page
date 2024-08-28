@@ -285,7 +285,7 @@ table th {
 
 .weather-container {
     position: relative;
-    width: 400px;
+    width: 90%;
     height: 50px;
     background: var(--white-color);
     color: var(--primary-color);
@@ -535,6 +535,11 @@ table th {
         display: none;
     }
 
+    .weather-container {
+        display: block;
+        width: 83%;
+    }
+
     .close-menu-label::after {
         content: '☰';
         position: fixed;
@@ -589,6 +594,7 @@ table th {
     }
 
     .footer {
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 }
